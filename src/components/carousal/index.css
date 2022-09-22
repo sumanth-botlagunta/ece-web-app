@@ -1,0 +1,21 @@
+.Carousel{
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: rgb(26, 182, 12);
+    font-size: 20px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.image{
+    border-radius: 2rem;
+    height: 80vh;
+  
+}
