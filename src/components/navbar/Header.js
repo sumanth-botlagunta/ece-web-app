@@ -1,55 +1,42 @@
-import React, { useState, useEffect } from "react";
-import "./navbar.css";
-import { CSSTransition } from "react-transition-group";
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import logo from '../../assets/associationlogo.jpg';
 
-export default function Header() {
-  const [isNavVisible, setNavVisibility] = useState(false);
-  const [isSmallScreen, setIsSmallScreen] = useState(false);
-
-  useEffect(() => {
-    const mediaQuery = window.matchMedia("(max-width: 700px)");
-    mediaQuery.addListener(handleMediaQueryChange);
-    handleMediaQueryChange(mediaQuery);
-
-    return () => {
-      mediaQuery.removeListener(handleMediaQueryChange);
-    };
-  }, []);
-
-  const handleMediaQueryChange = (mediaQuery) => {
-    if (mediaQuery.matches) {
-      setIsSmallScreen(true);
-    } else {
-      setIsSmallScreen(false);
-    }
-  };
-
-  const toggleNav = () => {
-    setNavVisibility(!isNavVisible);
-  };
-
+function CollapsibleExample() {
   return (
-    <header className="Header">
-      <img src={require("../../assets/logo.png")} className="Logo" alt="logo" />
-      <CSSTransition
-        in={!isSmallScreen || isNavVisible}
-        timeout={350}
-        classNames="NavAnimation"
-        unmountOnExit
-      >
-        <nav className="Nav">
-          <a href="/">Home</a>
-          <a href="/">Articles</a>
-          <a href="/">About</a>
-          <a href="/">Logout</a>
-        </nav>
-      </CSSTransition>
-      <button onClick={toggleNav} className="Burger">
-        <span role="img" aria-label="">
-          {" "}
-          😵{" "}
-        </span>
-      </button>
-    </header>
+    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Container>
+      <Navbar bg="dark">
+        <Container>
+          <Navbar.Brand href="#home" className='brand'>
+            <img
+              src={logo}
+              width="30"
+              height="30"
+              className="d-inline-block align-top"
+              alt="React Bootstrap logo"
+            />
+          </Navbar.Brand>
+        </Container>
+      </Navbar>
+        <Navbar.Brand href="#home">ECEA</Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="me-auto">   </Nav>
+          <Nav>
+            <Nav.Link href="#deets">Events</Nav.Link>
+            <Nav.Link href="#deets">Gallery</Nav.Link>
+            <Nav.Link href="#deets">Team</Nav.Link>
+            {/* 
+              add logos for social media
+            */}
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 }
+
+export default CollapsibleExample;
