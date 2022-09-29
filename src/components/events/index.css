@@ -1,0 +1,73 @@
+*{
+    background-color: #0000;
+}
+.main{
+    width: 100%;
+    padding: 2rem;
+    background-color: #000000fa;
+    color: white !important; 
+}
+.container{
+    width: 100%;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3%;
+    grid-auto-rows: minmax(100px, auto);
+     
+}
+
+@media screen and (max-width: 800px){
+    .container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 530px){
+    .container{
+        grid-template-columns: 1fr ;
+    }
+    .main{
+        padding: 3rem;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .container{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+    
+
+.element{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    overflow-y: hidden;
+    background-image: url('https://i.ibb.co/MPQTpGR/84cd03be-1d1b-4b42-b74b-5b412620c29f.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: flex-end;
+    color: #ffff;
+    line-height: 1.2rem;
+    border-radius: 16px;
+    margin-bottom: 1rem;
+}
+
+.element:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.glass{
+ /* From https://css.glass */
+background: rgba(13, 2, 2, 0.89);
+border-bottom-left-radius: 16px;
+border-bottom-right-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.6px);
+-webkit-backdrop-filter: blur(5.6px);
+border: 1px solid rgba(13, 2, 2, 0.41);
+padding: 1rem;
+}
+
