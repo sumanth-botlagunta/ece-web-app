@@ -1,14 +1,14 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import logo from '../../assets/associationlogo.jpg';
+import './navbar.css';
 
 function CollapsibleExample() {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar className='Navbar' collapseOnSelect expand="lg" variant="dark">
       <Container>
-      <Navbar bg="dark">
+      <Navbar >
         <Container>
           <Navbar.Brand href="#home" className='brand'>
             <img
