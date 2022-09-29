@@ -5,11 +5,8 @@ function Welcome() {
   return (
     <>
         <div className="main-container">
-            <div className="glass">
-            Welcome to
-            <br/>
-            Electronics and Communication Department
-            </div>
+              <div>ECE-A</div>
+              <div>Electronics and Communications Association</div>
         </div>
     </>
   )
