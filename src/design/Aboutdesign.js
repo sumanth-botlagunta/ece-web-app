@@ -13,7 +13,7 @@ const Aboutdesign = props => {
                     props.data.map((item, index) => {
                         return (
                             <div className="glass" key={index}>
-                                <div className="image">
+                                <div className="imag">
                                     <img src={item.avatar} alt={item.name}/>
                                 </div>
                                 <div className="content">

@@ -39,7 +39,7 @@
 } */
 
 
-.image{
+.imag{
     width: 100%;
     height: calc(100% - 6rem);
     display: flex;
@@ -48,7 +48,7 @@
     border-radius: 16px 16px 0px 0px;
 }
 
-.image > img {
+.imag > img {
     object-fit: fill;
     border-radius: 50%;
     aspect-ratio: 1/1;
