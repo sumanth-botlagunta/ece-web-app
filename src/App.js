@@ -1,10 +1,10 @@
 import './App.css';
 import {Routes, Route} from 'react-router-dom';
 import Home from './pages/Home';
-import About from './pages/About';
+import About from './pages/about/About';
 import Hearld from './pages/hearald/Hearald';
 import Events from './pages/events/Events';
-import Gallery from './pages/Gallery';
+import Gallery from './pages/gallery/Gallery';
 import Faculty from './pages/Faculty';
 import 'bootstrap/dist/css/bootstrap.min.css';
 

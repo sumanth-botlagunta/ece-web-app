@@ -1,0 +1,105 @@
+*{
+    background-color: black;
+}
+
+.main{
+    width: 100%;
+    padding: 2rem;
+    background-color: black;
+    color: white !important; 
+}
+
+.container{
+    width: 100%;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3%;
+    grid-auto-rows: minmax(100px, auto);
+    
+}
+
+.glass{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 20rem;
+    overflow-y: hidden;
+    background-color: #000000;
+    color: #ffff;
+    border-radius: 16px;
+    margin-bottom: 1rem;
+    overflow-x: hidden;
+}
+@media (min-width: 768px) {
+    .glass:hover{
+        opacity: 0.7;
+        cursor: pointer;
+    }
+}
+
+
+.image{
+    width: 100%;
+    height: calc(100% - 6rem);
+    display: flex;
+    justify-content: center;
+    background-color: rgba(29, 27, 27, 0.788);
+    border-radius: 16px 16px 0px 0px;
+}
+
+.image > img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+    background-color: rgba(29, 27, 27, 0.788);
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start !important;
+    line-gap-override: 1px !important;
+    line-height: 1rem;
+    margin-top: 1rem;
+    border-radius: 3px;
+}
+
+.content > h5{
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0.5rem;
+    background-color: black;
+}
+
+.content > p{
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0.5rem;
+    background-color: black;
+
+}
+
+@media screen and (max-width: 800px){
+    .container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 530px){
+    .container{
+        grid-template-columns: 1fr ;
+    }
+    .main{
+        padding: 3rem;
+    }
+    
+}
+
+@media screen and (min-width: 1200px){
+    .container{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}

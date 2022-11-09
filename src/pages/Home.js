@@ -1,14 +1,18 @@
 import React from 'react'
 import Welcome from '../components/welcome/Welcome';
-import Events from '../components/events/Events';
-import Hearld from "../components/hearld/Hearld";
+import Eventdesign from '../design/Eventdesign';
+import Hearlddesign from '../design/Hearlddesign';
+import eventdata from './events/dummyevent.json';
+import hearalddata from './hearald/dummyhearld.json';
+
+
 
 function Home() {
   return (
     <div className='Home'>
         <Welcome />
-        <Events />
-        <Hearld />
+        <Eventdesign Eventdesign title={"Upcoming Events"} data ={eventdata} />
+        <Hearlddesign title={'Hearld Magazines'} length = {4} data={hearalddata}/>
     </div>
   )
 }
