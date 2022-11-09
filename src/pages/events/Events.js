@@ -1,12 +1,14 @@
 import React from 'react'
-import Upcoming from '../../components/events/Events'
+import data from './dummyevent.json'
+import Eventdesign from '../../design/Eventdesign'
+// import Upcoming from '../../components/events/Events'
 
 function Events() {
   return (
-    <>
-        <Upcoming />
-    </>
+      <>
+        <Eventdesign title={"Upcoming Events"} data ={data}/>
+        <Eventdesign title={"Past Events"} data ={data}/>
+      </>
   )
 }
-
 export default Events
