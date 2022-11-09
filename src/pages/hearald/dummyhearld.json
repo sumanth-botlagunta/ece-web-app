@@ -1,0 +1,212 @@
+[
+    {
+        "id" : "1",
+        "date" : "2018-01-01",
+        "title" : "Title 1",
+        "content" : "Content 1",
+        "image" : "https://i.ibb.co/3pv2NQC/the-making-of-untitled-entertainment-series-9781647225285-hr.jpg",
+        "url" : "http://www.example.com/article1.html",
+        "articles": [
+            {
+                "id": "1",
+                "title": "Title 1",
+                "description": "Description 1"
+            },
+            {
+                "id": "2",
+                "title": "Title 2",
+                "description": "Description 2"
+            },
+            {
+                "id": "3",
+                "title": "Title 3",
+                "description": "Description 3"
+            },
+            {
+                "id": "4",
+                "title": "Title 4",
+                "description": "Description 4"
+            }
+        ]
+    },
+    {
+        "id" : "2",
+        "date" : "2019-02-02",
+        "title" : "Title 2",
+        "content" : "Content 2",
+        "image" : "https://i.ibb.co/Jq7t2F0/MV5-BMm-Jh-YTYx-MGEt-Nj-Q5-NS00-MWZi-LWEw-N2-It-Yj-Jm-MWE2-YTU1-YWYx-Xk-Ey-Xk-Fqc-Gde-QXVy-MTEz-Nzg0.jpg",
+        "url" : "http://www.example.com/article2.html",
+        "articles": [
+            {
+                "id": "1",
+                "title": "Title 1",
+                "description": "Description 1"
+            },
+            {
+                "id": "2",
+                "title": "Title 2",
+                "description": "Description 2"
+            },
+            {
+                "id": "3",
+                "title": "Title 3",
+                "description": "Description 3"
+            },
+            {
+                "id": "4",
+                "title": "Title 4",
+                "description": "Description 4"
+            }
+        ]
+    },
+    {
+        "id" : "3",
+        "date" : "2020-01-03",
+        "title" : "Title 3",
+        "content" : "Content 3",
+        "image" : "https://i.ibb.co/gJwMfwY/948861-scaled.webp",
+        "url" : "http://www.example.com/article3.html",
+        "articles": [
+            {
+                "id": "1",
+                "title": "Title 1",
+                "description": "Description 1"
+            },
+            {
+                "id": "2",
+                "title": "Title 2",
+                "description": "Description 2"
+            },
+            {
+                "id": "3",
+                "title": "Title 3",
+                "description": "Description 3"
+            },
+            {
+                "id": "4",
+                "title": "Title 4",
+                "description": "Description 4"
+            }
+        ]
+    },
+    {
+        "id" : "4",
+        "date" : "2018-01-04",
+        "title" : "Title 4",
+        "content" : "Content 4",
+        "image" : "http://www.example.com/image4.jpg",
+        "url" : "http://www.example.com/article4.html",
+        "articles": [
+            {
+                "id": "1",
+                "title": "Title 1",
+                "description": "Description 1"
+            },
+            {
+                "id": "2",
+                "title": "Title 2",
+                "description": "Description 2"
+            },
+            {
+                "id": "3",
+                "title": "Title 3",
+                "description": "Description 3"
+            },
+            {
+                "id": "4",
+                "title": "Title 4",
+                "description": "Description 4"
+            }
+        ]
+    },
+    {
+        "id" : "5",
+        "date" : "2018-01-05",
+        "title" : "Title 5",
+        "content" : "Content 5",
+        "image" : "http://www.example.com/image5.jpg",
+        "url" : "http://www.example.com/article5.html",
+        "articles": [
+            {
+                "id": "1",
+                "title": "Title 1",
+                "description": "Description 1"
+            },
+            {
+                "id": "2",
+                "title": "Title 2",
+                "description": "Description 2"
+            },
+            {
+                "id": "3",
+                "title": "Title 3",
+                "description": "Description 3"
+            },
+            {
+                "id": "4",
+                "title": "Title 4",
+                "description": "Description 4"
+            }
+        ]
+    },
+    {
+        "id" : "6",
+        "date" : "2018-01-06",
+        "title" : "Title 6",
+        "content" : "Content 6",
+        "image" : "http://www.example.com/image6.jpg",
+        "url" : "http://www.example.com/article6.html",
+        "articles": [
+            {
+                "id": "1",
+                "title": "Title 1",
+                "description": "Description 1"
+            },
+            {
+                "id": "2",
+                "title": "Title 2",
+                "description": "Description 2"
+            },
+            {
+                "id": "3",
+                "title": "Title 3",
+                "description": "Description 3"
+            },
+            {
+                "id": "4",
+                "title": "Title 4",
+                "description": "Description 4"
+            }
+        ]
+    },
+    {
+        "id" : "7",
+        "date" : "2018-01-07",
+        "title" : "Title 7",
+        "content" : "Content 7",
+        "image" : "http://www.example.com/image7.jpg",
+        "url" : "http://www.example.com/article7.html",
+        "articles": [
+            {
+                "id": "1",
+                "title": "Title 1",
+                "description": "Description 1"
+            },
+            {
+                "id": "2",
+                "title": "Title 2",
+                "description": "Description 2"
+            },
+            {
+                "id": "3",
+                "title": "Title 3",
+                "description": "Description 3"
+            },
+            {
+                "id": "4",
+                "title": "Title 4",
+                "description": "Description 4"
+            }
+        ]
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "id": "1",
+        "name": "John",
+        "avatar": "https://i.ibb.co/rbZrBmr/diego-hernandez-MSepzb-KFz10-unsplash.jpg",
+        "role": "Head",
+        "phone": "1234567890",
+        "email": "john@example.com"
+    },
+    {
+        "id": "2",
+        "name": "Jane",
+        "avatar": "https://i.ibb.co/0ZqZhzS/download.jpg",
+        "role": "Seceratary",
+        "phone": "1234567890",
+        "email": "jane@example.com"
+    },
+    {
+        "id": "3",
+        "name": "Jack",
+        "avatar": "https://i.ibb.co/tCDnmH9/Portrait-of-Sir-Isaac-Newton-1689.jpg",
+        "role": "user",
+        "phone": "1234567890",
+        "email": "jack@example.com"
+    },
+    {
+        "id": "4",
+        "name": "Jill",
+        "avatar": "https://example.com/avatar.jpg",
+        "role": "user",
+        "phone": "1234567890",
+        "email": "jill@example.com"
+    },
+    {
+        "id": "5",
+        "name": "Jenny",
+        "avatar": "https://example.com/avatar.jpg",
+        "role": "user",
+        "phone": "1234567890",
+        "email": "jenny@example.com"
+    }
+]
